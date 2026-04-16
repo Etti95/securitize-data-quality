@@ -1,0 +1,13 @@
+{
+  "run_at": "2026-04-16T20:21:28.753414Z",
+  "rules_total": 11,
+  "rules_passed": 2,
+  "rules_failed": 9,
+  "data_health_score": 18.2,
+  "findings_total": 13,
+  "findings_by_severity": {
+    "critical": 9,
+    "high": 3,
+    "medium": 1
+  }
+}

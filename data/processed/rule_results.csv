@@ -1,0 +1,12 @@
+rule_id,rule_name,status,finding_count,severity
+REC-001,REC-001 On-chain vs cap table reconciliation,fail,3,critical
+REC-002,REC-002 Total supply reconciliation,fail,1,critical
+REC-003,REC-003 Subscription-to-mint match,pass,0,
+KYC-001,KYC-001 Transfers to expired KYC,fail,2,critical
+KYC-002,KYC-002 US holders accreditation,pass,0,
+WHT-001,WHT-001 Transfers to non-whitelisted wallets,fail,1,critical
+BAL-001,BAL-001 No negative balances,fail,1,critical
+CON-001,CON-001 Concentration limit,fail,1,high
+NAV-001,NAV-001 NAV business day completeness,fail,1,critical
+NAV-002,NAV-002 NAV daily move plausibility,fail,2,high
+ING-001,ING-001 Duplicate tx_hash,fail,1,medium

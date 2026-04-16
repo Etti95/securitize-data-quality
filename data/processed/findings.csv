@@ -1,0 +1,14 @@
+rule_id,severity,entity_type,entity_id,message,owner
+REC-001,critical,investor,INV-0004,"Cap table balance 832,428.25 != on-chain balance 652,428.25 (delta 180,000.00)",transfer_agent_ops
+REC-001,critical,investor,INV-0008,"Cap table balance 268,278.39 != on-chain balance 268,278.02 (delta 0.37)",transfer_agent_ops
+REC-001,critical,investor,INV-0013,"Cap table balance -1,250.00 != on-chain balance 0.00 (delta -1,250.00)",transfer_agent_ops
+REC-002,critical,fund,APCRED,"Total outstanding 52,225,290.81 != cap table total 52,362,041.18 (delta -136,750.37)",fund_admin
+KYC-001,critical,transfer,0x4f0ed8a29a7a636f161bf1ef4c8583d92c276b1f6102a8dae205646c580a5604,Transfer to investor INV-0049 on 2026-02-22 but KYC expired 2026-02-21,compliance
+KYC-001,critical,transfer,0xcd7c7ab9e45e3dcae280ef90216e5fe9cd0352187b291faa429794cbdcdd0b08,Transfer to investor INV-0097 on 2026-03-03 but KYC expired 2025-12-29,compliance
+WHT-001,critical,transfer,0x5efb01b805d03d1674f02faddc1c375d94f8356f7f19b0e8c77e8603769b50b6,"Transfer 0x5efb01b805... sent 42,000.00 tokens to non-whitelisted wallet 0x026dbf3664...",compliance
+BAL-001,critical,investor,INV-0013,"Investor INV-0013 has negative cap table balance -1,250.00",transfer_agent_ops
+CON-001,high,investor,INV-0002,Investor INV-0002 holds 24.3% of outstanding tokens (limit 10%),portfolio_ops
+NAV-001,critical,nav,2026-02-24,No NAV recorded for business day 2026-02-24,fund_admin
+NAV-002,high,nav,2026-03-09,NAV move of 7.97% on 2026-03-09 exceeds 3% plausibility threshold,fund_admin
+NAV-002,high,nav,2026-03-10,NAV move of -7.40% on 2026-03-10 exceeds 3% plausibility threshold,fund_admin
+ING-001,medium,transfer,0x9789f4e2339193149452c1a42cded34f7a301a13196cd8200246af7cc1e33c3b,Duplicate tx_hash 0x9789f4e233... present in transfer log,data_platform

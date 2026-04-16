@@ -1,0 +1,10 @@
+tx_hash,block_timestamp,event_type,tokens,reason,signal
+0xf70ac5c608542dddfe9eaa46694d953bc7adfa0e934c06962f340d1b2f958ba2,2026-03-17 11:00:00,mint,12500000.0,"mint size 12,500,000 is 13.6σ from mean 291,933 for this event type",zscore
+0xf70ac5c608542dddfe9eaa46694d953bc7adfa0e934c06962f340d1b2f958ba2,2026-03-17 11:00:00,mint,12500000.0,"Unusual combination: mint of 12,500,000 tokens at 11:00 on weekday 1 (isolation score -0.054)",isolation_forest
+0x973f0a85d14a073f6fa33b5df64832cefa00d84c8c55e3aa1258cbce68a01e48,2026-01-26 09:25:00,mint,239123.24,"Unusual combination: mint of 239,123 tokens at 09:00 on weekday 0 (isolation score -0.002)",isolation_forest
+0x06ad17baf6a4f9d22463c7cd28a139601c1b40da4e4aa64a82d2417f15cefee6,2026-03-14 15:32:00,burn,1751.41,"Unusual combination: burn of 1,751 tokens at 15:00 on weekday 5 (isolation score -0.008)",isolation_forest
+0xe5dc4e6262cd7e75805f164cbeb199295433e6f42c3165238cb203e602aaeb89,2026-02-17 17:41:00,transfer,1477.65,"Unusual combination: transfer of 1,478 tokens at 17:00 on weekday 1 (isolation score -0.006)",isolation_forest
+0x3e812f40cd8e4ca3a92972610409922dedf1c0dbc68394fcb1c8f188a42655e2,2026-01-08 17:24:00,transfer,1244.78,"Unusual combination: transfer of 1,245 tokens at 17:00 on weekday 3 (isolation score -0.009)",isolation_forest
+0xaaba7b0e4e06a81df2543566fb5b7bf4afb9b892f1d2bcae49dadb5cdf6f7ef6,2026-03-18 10:21:00,transfer,1193.67,"Unusual combination: transfer of 1,194 tokens at 10:00 on weekday 2 (isolation score -0.009)",isolation_forest
+0xed24472ddff1dc231abc26cbd2de29325ffc37369f12b17081408a6d8c5fa3ed,2026-03-06 10:57:00,transfer,1004.34,"Unusual combination: transfer of 1,004 tokens at 10:00 on weekday 4 (isolation score -0.032)",isolation_forest
+0x973d3c64569a45ac9d7d0375a57fde8043f866a0ea9becfcc34be78ed9cdfde2,2026-03-26 12:43:00,burn,573.54,Unusual combination: burn of 574 tokens at 12:00 on weekday 3 (isolation score -0.017),isolation_forest
