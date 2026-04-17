@@ -69,9 +69,6 @@ securitize-data-quality/
 │   └── lineage.md                 # raw → staging → marts documentation
 ├── brief/
 │   └── executive_brief.md         # one-pager for Compliance + Finance
-├── outreach/
-│   ├── outreach_en.md
-│   └── outreach_es.md
 └── data/
     ├── raw/                       # generated CSVs
     └── processed/                 # rule results, findings, anomalies
