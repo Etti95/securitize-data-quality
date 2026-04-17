@@ -22,13 +22,13 @@ cap table, KYC gating, NAV completeness, whitelisting, concentration, ingestion 
 ## Why this shape of prototype
 
 The role owns data quality and audit traceability across a regulated financial
-platform. What makes that job hard isn't writing checks — it's:
+platform. What makes that job challenging is:
 
 1. Knowing which checks are load-bearing for audit (SEC transfer agent obligations,
    Reg D 506(c) accreditation, fund admin NAV strike, ATS reporting).
-2. Making findings *actionable* — severity, owner, remediation — rather than dumping
+2. Making findings *actionable* — severity, owner, remediation. Rather than dumping
    a failures table on Slack.
-3. Keeping the system auditable itself — every finding traces to a rule, every rule
+3. Keeping the system auditable itself: every finding traces to a rule, every rule
    traces to a source.
 
 This prototype encodes all three.
