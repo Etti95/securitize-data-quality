@@ -1,7 +1,5 @@
-pandas==2.2.2
-numpy==1.26.4
-streamlit==1.36.0
-plotly==5.22.0
-scikit-learn==1.5.0
-pyyaml==6.0.1
-faker==25.8.0
+pandas>=2.2,<3
+numpy>=1.26,<3
+streamlit>=1.36,<2
+plotly>=5.22,<6
+scikit-learn>=1.5,<2
